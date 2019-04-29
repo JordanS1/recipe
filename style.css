@@ -1,0 +1,94 @@
+
+* {
+	font-family: 'Zilla Slab', serif;
+}
+
+body {
+	background-color:#695b4a;
+}
+
+img {
+	width: 100%;
+	margin: 0 25px;
+	padding: 30px;
+	padding-right: 125px;
+
+}
+
+h1{
+	text-align: center; 
+	padding:10px;
+}
+
+ul {
+	list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin: 25px;
+	padding: 25px;
+	color:tan;
+}
+p {
+	color:tan;
+	text-align: center
+	margin: 25px;
+	padding: 25px;
+
+
+}
+
+h2 {
+	text-align: center;
+	margin: 25px;
+	padding: 25px;
+	
+
+	
+}
+
+
+
+.top-image {
+	background: url('img/brownie4.jpg') no-repeat center center;
+	height: 75vh;
+	background-size: cover;
+	padding-top: 50px;
+	position: relative;
+
+}
+
+.recipe-top-image {
+	background: url('img/ingredients.jpg') no-repeat center center;
+	height: 75vh;
+	background-size: cover;
+	padding-top: 10px;
+	position: relative;
+
+}
+
+.top-image h1, .recipe-top-image h1 {
+	font-family: 'Zilla Slab', serif;
+	color: #695b4a;
+	text-transform: uppercase; text-align:center;
+	letter-spacing: 50px;
+	font-size: 80px;
+	font-family: courier;
+	font-style: bold;
+	margin: 0 25px;
+	padding: 40px;
+
+}
+
+.ingredients {
+	margin: 0;
+	padding: 0;
+}
+
+.ingredients li {
+	display: block; 
+}
